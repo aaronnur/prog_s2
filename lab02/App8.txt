@@ -1,1 +1,19 @@
 Explicação:
+Conta 1111  e 4444 : No começo o Saldo era 50 e tentaram sacar 1100 e, 
+sendo uma conta infinita onde o valor do saque não tem limite, 
+o saldo ficou negativo por ter menos do que foi pedido. A diferença da conta
+1111 e 4444 para o saldo final é o saldo que cada uma começou.
+
+Conta 2222: Saldo inicial foi de 10, mas por ser uma conta especial ele
+ganhou 200 de limite a mais, sendo assim o limite virou 1200 e como a tentativa
+foi de 1100 o saldo ficou negativo por ter um saldo de 10.
+
+Conta 2222: Não houve mudança porque por ser uma conta comum, ele impedia que fosse permitido sacar
+um valor maior que o saldo, então continuoou o mesmo.
+
+Conta 3333: Nessa ocasião é uma conta comum, mas possuía um saldo maior que o valor solicitado para
+sacar, então apenas foi subtraido o valor do saque.
+
+Conta 7777: Aqui é uma conta especial, então o seu saldo inicial ja aumentou o limite de 
+200 para 400 permitido para o saque. Como o saldo ja era 800 e o limite 400, foi o bastante para conseguir sacar,
+mas o saldo ficou negativo(-300). /
